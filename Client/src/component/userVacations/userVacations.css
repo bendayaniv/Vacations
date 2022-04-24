@@ -1,0 +1,86 @@
+.user-vacations {
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.user-vacations > h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.51);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.user-vacations .vacations-cards {
+    background-color: rgba(255, 255, 255, 0.51);
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 70%;
+    width: 25%;
+    position: relative;
+    overflow: auto;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.user-vacations .vacations-cards > p {
+    font-weight: bolder;
+}
+
+.user-vacations .vacations-cards > img {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px 10px 90px 10px;
+}
+
+.user-vacations .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 50px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.51);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; 
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 2;
+	}
+}
+
+.user-vacations #unfollow-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 37%;
+}
+
+.user-vacations #follow-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 37%;
+}
+
+.user-vacations #unfollow-button:hover {
+    background-color: rgba(255, 255, 255, 0.51);
+}
+
+.user-vacations #follow-button:hover {
+    background-color: rgba(255, 255, 255, 0.51);
+}

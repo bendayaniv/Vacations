@@ -1,0 +1,48 @@
+.edit-vacation{
+    text-align: center;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 500px;
+    padding: 5px;
+    height: 100%;
+    border-radius: 2px;
+}
+.edit-vacation input, .edit-vacation textarea {
+    font-size: large;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.51);
+    width: 400px;
+}
+
+.edit-vacation button{
+    border: 2px solid white;
+    background-color: rgb(13, 13, 197);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.edit-vacation button:hover{
+    background-color:white;  
+    border: 2px solid black;
+    color: black;
+}
+
+.edit-vacation h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    width: 230px;
+    margin-left: 100px;
+}

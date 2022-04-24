@@ -1,0 +1,109 @@
+.admin-vacations {
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.admin-vacations > h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bolder;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.51);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; 
+}
+
+.admin-vacations .nav-link {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.admin-vacations h3 {
+    color: black;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.admin-vacations p {
+    font-weight: bolder;
+}
+
+.admin-vacations button:hover {
+    background-color: white;
+    border: 1px solid white;
+    display: inline-block;
+    color: black;
+}
+
+.admin-vacations #edit-vacation-button {
+    margin-left: 90%;
+    position: absolute;
+    background-color: none;
+    height: 25px;
+    width: 30px;
+}
+
+.admin-vacations #delete-vacation-button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.admin-vacations #delete-vacation-button:hover {
+    font-size: x-large;
+}
+
+.admin-vacations .vacations-cards {
+    background-color: rgba(255, 255, 255, 0.51);
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 70%;
+    width: 25%;
+    position: relative;
+    overflow: auto;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.admin-vacations .vacations-cards > img {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px 10px 100px 0px;
+}
+
+.admin-vacations .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 50px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.51);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; 
+}
+
+.admin-vacations .vacations-cards h3 {
+    font-weight: bolder;
+    margin-top: 5%;
+}
+
+.admin-vacations .vacations-cards p {
+    font-weight: bolder;
+    margin-top: 5%;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 2;
+	}
+}

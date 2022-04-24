@@ -1,0 +1,17 @@
+.layout {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-image: url("/assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: auto;
+}
